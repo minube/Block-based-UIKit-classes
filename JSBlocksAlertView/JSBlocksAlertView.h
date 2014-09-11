@@ -18,7 +18,7 @@
 
 @class JSBlocksAlertView;
 
-typedef void (^JSBlocksAlertViewDismissedCallback)(JSBlocksAlertView *alertView, int buttonIndex);
+typedef void (^JSBlocksAlertViewDismissedCallback)(JSBlocksAlertView *alertView, NSInteger buttonIndex);
 
 @interface JSBlocksAlertView : UIAlertView <UIAlertViewDelegate>
 
