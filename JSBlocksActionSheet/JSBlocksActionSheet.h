@@ -18,7 +18,7 @@
 
 @class JSBlocksActionSheet;
 
-typedef void (^JSBlocksActionSheetDismissedCallback)(JSBlocksActionSheet *actionSheet, int buttonIndex);
+typedef void (^JSBlocksActionSheetDismissedCallback)(JSBlocksActionSheet *actionSheet, NSInteger buttonIndex);
 
 @interface JSBlocksActionSheet : UIActionSheet <UIActionSheetDelegate>
 
