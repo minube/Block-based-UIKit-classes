@@ -64,10 +64,8 @@
 }
 
 
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
-{
-	if (self.callback)
-	{
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (self.callback) {
     	self.callback(self, buttonIndex);
 	}
 }
